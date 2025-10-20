@@ -15,4 +15,10 @@ public class EmployeeController {
     public List<Employee> getAllEmployees() {
         return employeeManager.getEmployees().getEmployeeList();
     }
+
+        @PostMapping("/employees")
+        public Employee addEmployee(@RequestBody Employee employee) {
+            employeeManager.getEmployees().getEmployeeList().add(employee);
+            return employee;
+        }
 }
