@@ -1,4 +1,4 @@
-package com.grinefalcon.model;
+package com.grinefalcon.employee_api;
 
 public class Employee {
     private String first_name;
@@ -17,9 +17,23 @@ public class Employee {
     }
 
     // Getter methods
-    public String getFirst_name() { return first_name; }
-    public String getLast_name() { return last_name; }
-    public String getEmployee_id() { return employee_id; }
-    public String getEmail() { return email; }
-    public String getTitle() { return title; }
+    public String getFirst_name() {
+        return first_name;
+    }
+
+    public String getLast_name() {
+        return last_name;
+    }
+
+    public String getEmployee_id() {
+        return employee_id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTitle() {
+        return title;
+    }
 }
